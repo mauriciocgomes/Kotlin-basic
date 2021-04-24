@@ -3,6 +3,7 @@ phases:
     build:
       commands:
       - echo building
+      - chmod +x ./gradlew
       - ./gradlew build
 artifacts:
     files:
