@@ -3,7 +3,8 @@ phases:
     build:
       commands:
       - echo building
+      - ./gradlew build
 artifacts:
     files:
-    - build/libs/hello-world.war
+    - build/libs/hello-world.jar
     discard-paths: yes
