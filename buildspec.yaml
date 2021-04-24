@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+    build:
+      commands:
+      - echo building
+      - chmod +x ./gradle
+      - gradle build
+artifacts:
+    files:
+    - build/libs/hello-world.war
+    discard-paths: yes
